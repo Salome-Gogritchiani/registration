@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const authorizedUser = users.find(user => user.email === authEmail && user.password === authPassword);
 
         if (authorizedUser) {
-            alert('შედეგი დადებითია!');
+            // alert('შედეგი დადებითია!');
             document.getElementById("loginButton").textContent = "ჩემი პროფილი";
 
             // Close forms and overlay after successful login
